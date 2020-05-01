@@ -1,0 +1,372 @@
+*{
+   border:0;
+   padding:0;
+   margin:0;   
+}
+
+
+/* Generic Selectors */
+h1 {
+  color:  #901fed;
+}
+
+.homeFont {
+  font-size: 40px;
+  left: 50px;
+  top: 10px;
+  position: fixed;
+  /*border: 3px solid #73AD21;*/
+}
+
+.otherFont {
+  font-size: 88px;
+}
+
+h2{
+	 color:  #901fed;
+	 font-weight: bold; 
+	 font-family: Roboto, san serif;
+	 font-size: 20px;
+}	
+
+
+ogin-button
+
+p{
+	 color:  #000000;
+	 font-family: calibri, san serif;
+	 font-size: 12px;
+}	
+
+
+ul{
+  padding:0;
+  margin: 0;
+}
+.ul-horizon{
+	list-style: none;
+	display: block;
+	
+	
+	
+}
+
+
+/* ********************************************************************* */
+
+/* Classes */
+
+.backdrop{
+	min-height:300px;
+	width:100%;
+	z-index: -1;
+}
+
+.backdrop-img{
+    width:100%;
+    display: block;	
+}
+
+.navbar{
+	background: #e3ed1f;
+	position: fixed;
+	left: 60%;
+	top:15px;
+	height:50px;
+	width:39%;
+	border-radius: 15px;
+	
+}
+
+.logo-img{
+	left: 50px;
+    top: 5px;
+	position: fixed;
+	height:100px;
+}
+
+.login{
+    background: #901fed;
+	position: absolute;
+	padding: 15px;
+	text-align: center;
+	left: 75%;
+	top:150px;
+	height:350px;
+	width:19%;
+	border-radius: 5px;
+}	
+
+.login:h3{
+   color:#6adec1;
+   font-family: roboto;
+   font-size: 18px;
+}
+
+.login-button{
+	margin: 10px;
+	padding: 5px;
+	background-color: #c9f2e1;
+	border-radius: 5px;
+}	
+
+.register-btn{
+	margin: 10px;
+	padding: 5px;
+	color: #c9f2e1;
+	border-radius: 5px;
+}
+.featured{
+	position: relative;
+	width:100%;
+	background: #fff7e5;
+	z-index: -1;
+	
+    
+}	
+
+.featureright{
+	position: relative;
+	top: 20px;
+	left:50%;
+	width:700px;
+	
+    
+}
+
+.featurerightimg{
+	top:10px;
+    width:300px;
+    padding-bottom:20px;
+	
+}
+
+.featureleft{
+	padding-top:50px;
+	position: relative;
+	top: 10px;
+	left:50px;
+	width: 700px;
+	padding-bottom:20px;
+    
+}
+
+
+.featureleftimg{
+	top:10px;
+    width:300px;
+	border-bottom:20px;
+}
+
+.footer{
+	position: relative;
+	width:100%;
+	height:140px;
+	
+}
+
+.otherfooter{
+	position: relative;
+	width:100%;
+	height:100px;
+	background: #c9f2e1;
+	
+}
+
+.footerdiv{
+	position: relative;
+	width:33%;
+	height:100px;
+	background: #c9f2e1;
+	border-right: 2px solid #ededed;
+	float:left;
+	
+}
+
+.subscribe{
+	margin-left: 30px;
+	margin-top:10px;
+	padding: 5px;
+	background-color: #fff7e5;;
+	border-radius: 5px;
+}	
+
+
+
+.client-img{
+	position:relative;
+	left: 5px;
+    top: 20px;
+	height:40px;
+}
+
+.socialfooter{
+	margin-top: 20px;
+	
+}
+
+.socialicon{
+	position: relative;
+	float: left;
+	margin-left: 60px;
+	padding: 20px;
+}
+
+.copyrightbar{
+	position: relative;
+	width:100%;
+	height:40px;
+	background: #e1ede8;
+	border-top: 2px solid #ededed;
+	border-bottom: 4px solid #ededed;
+}
+	
+
+
+
+
+
+
+
+/*.footerblock{
+	position:relative;
+	float:left;
+	width:33%;
+	border: 3px solid #73AD21;
+}
+/* ********************************************************************* */
+
+/* Pseudo */
+
+li{ /* static allignment view*/
+	  float:left;
+	  display: block;
+	  padding: 14px 0px 0px 0px;
+	  width:25%; /*equal distribution of list items (4) */
+	  text-align: center;
+ 
+}
+ 
+ a{/* static link anchor view*/
+	 display: block; /* prevents hover spill out */
+	 padding-bottom: 16px; /* increases the clickabale area */
+	 margin-bottom:-16px;
+	/* padding-bottom: 16px; /* increases the clickabale area */
+	/* margin-bottom:-16px; /* confines the hover effect within the actual height of navbar */
+	 text-decoration: none;
+	 color: #ff9ce5; /* static font color*/
+	 font-size:18px; /* static font size*/
+	 font-family: cursive; /* static font family*/
+    
+ }
+ 
+ a:hover{/* hover link anchor view*/
+	 color: #9cffb6; /*color of actual link on hover*/
+	 font-family: "arial narrow";
+ }
+ 
+
+
+
+li:hover { /*hover view intermediate*/
+	   background: #7ced1f;
+	   padding-bottom: 16px; /* spread of link area, this matches with anchor spread area*/
+	   border-radius: 0px;
+}
+
+li:hover:first-child{/*hover view first-child*/
+	   color: #ff9ce5;
+	   background: #7ced1f;
+	   padding-bottom: 16px; /* spread of link area, this matches with anchor spread area*/
+	   border-radius: 15px; /* matches with navbar curvature */
+}
+
+li:hover:last-child{/*hover view last-child*/
+	   color: #ff9ce5;
+	   background: #7ced1f;
+	   padding-bottom: 16px; /* spread of link area, this matches with anchor spread area*/
+	   border-radius: 15px;/* matches with navbar curvature */
+}
+
+.li-client{ /* static allignment view*/
+	  float:left;
+	  display: block;
+	  padding: 7px 0px 0px 0px;
+	  width:25%; /*equal distribution of list items (4) */
+ 
+}
+
+.li-client:hover{ /* static allignment view*/
+	  background: #c9f2e1!important;
+ 
+}
+
+/* ********************************************************************* */
+
+/* ID */
+
+#ul-client{
+	list-style: none;
+	display: block;
+	
+	
+	
+}
+
+
+
+
+
+/* old footer CSS
+#footer{
+	/*position: absolute;
+	width:100%;
+	height:150px;
+	background: #e3ed1f;
+	
+	
+	
+}
+
+#footer li a{
+  display: block;
+  text-decoration: underline overline;  
+  width:25%;
+  font-size:12px;
+  color: #ed1f7c;
+  z-index: -1;
+}
+
+#footer li a:hover{
+   display: block;
+   color: #ed8d1f;
+   text-decoration: none;
+   font-weight: bold;
+   background: #00007f;
+   border-radius: 0px;
+   
+}
+
+/* ********************************************************************* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
